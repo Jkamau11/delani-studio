@@ -1,6 +1,6 @@
-$(document).ready(function() {
+$(document).ready(()=>{
 
-  $("#design").click(function(){
+  $("#design").click(()=>{
     $("#design-showing").toggle();
     $(".hide-design-image").toggle();
   })
@@ -34,5 +34,3 @@ $('.submit').click(function () {
         }
   });
 });
-
-
